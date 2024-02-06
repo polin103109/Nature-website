@@ -31,13 +31,13 @@
         </nav>
       </div> 
       <header class="header">
-        <div class="header-logo-box">
-          <img src="./assets/logo-white.png" alt="Logo" class="header-logo"/>
+        <div class="header__logo-box">
+          <img src="./assets/logo-white.png" alt="Logo" class="header__logo"/>
         </div>
-        <div class="header-text-box">
-          <h1 class="head-primary">
-            <span class="head-primary-main">OutDoors</span>
-            <span class="head-primary-sub">is where life happens</span>
+        <div class="header__text-box">
+          <h1 class="heading-primary">
+            <span class="heading-primary--main">OutDoors</span>
+            <span class="heading-primary--sub">is where life happens</span>
           </h1>
         <a href="#section-tours" class="btn btn--white btn--animated u-margin-top-huge">Discover our tours</a>
         </div>
@@ -45,7 +45,7 @@
       <main>
         <section class="section-about">
            <div class="u-center-text u-margin-bottom-big">
-            <h2 class="head-secondary">
+            <h2 class="heading-secondary">
               Exciting tours for adventurous people
             </h2>
              </div>
@@ -128,7 +128,7 @@
         </section>
         <section class="section-tours">
           <div class="u-center-text u-margin-bottom-big">
-            <h2 class="head-secondary">
+            <h2 class="heading-secondary">
               Most popular tours
             </h2>
           </div>
@@ -174,12 +174,13 @@
                   <span class="card__heading-span card__heading-span--2">The forest hiker</span>
                 </h4>
                 <div class="card__details">
+                  
                   <ul>
-                    <li>3 day tours</li>
-                    <li>Up to 30 people</li>
-                    <li>2 tour guides</li>
-                    <li>Sleep in cozy hotels</li>
-                    <li>Difficulty: easy</li>
+                    <li>7 day tours</li>
+                    <li>Up to 40 people</li>
+                    <li>6 tour guides</li>
+                    <li>Sleep in provided tents</li>
+                    <li>Difficulty: medium</li>
                   </ul>
 
                 </div>
@@ -206,11 +207,11 @@
               </h4>
               <div class="card__details">
                 <ul>
-                  <li>3 day tours</li>
-                  <li>Up to 30 people</li>
-                  <li>2 tour guides</li>
+                  <li>5 day tours</li>
+                  <li>Up to 15 people</li>
+                  <li>3 tour guides</li>
                   <li>Sleep in cozy hotels</li>
-                  <li>Difficulty: easy</li>
+                  <li>Difficulty: hard</li>
                 </ul>
 
               </div>
@@ -234,14 +235,14 @@
         <section class="section-stories">
           <div class="bg-video">
            
-            <video class="bg-video__content"  autoplay muted loop>
+            <video class="bg-video__content"  autoplay muted loop> 
               <source src="./assets/video.mp4" type="video/mp4" />
               <!-- <source src="img/video.webm" type="video/webm" /> -->
               Your browser is not supported
             </video>
           </div>
           <div class="u-center-text u-margin-bottom-big">
-            <h2 class="head-secondary">
+            <h2 class="heading-secondary">
               We make people genuinely happy
             </h2>
           </div>
@@ -284,7 +285,7 @@
               <div class="book__form">
                 <form action="#" class="form">
                   <div class="u-margin-bottom-medium">
-                    <h2 class="head-secondary">
+                    <h2 class="heading-secondary">
                       Start booking now
                     </h2>
                   </div>
@@ -352,8 +353,27 @@
           </div>
         </div>
       </footer>
+      <div class="popup" id="popup">
+        <div class="popup__content">
+          <div class="popup__left">
+            <img src="./assets/nat-8.jpg" alt="Tour photo" class="popup__img">
+            <img src="./assets/nat-9.jpg" alt="Tour photo" class="popup__img">
+          </div>
+          <div class="popup__right">
+            <a href="#section-tours" class="popup__close">&times;</a>
+            <h2 class="heading-secondary u-margin-bottom-small">Start booking now</h2>
+            <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Please read these terms before booking.</h3>
+            <p class="popup__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fermentum accumsan mauris, ac pharetra dolor pharetra ac. Suspendisse aliquet aliquam enim, nec ultrices mauris lobortis vitae. In consequat felis quis mauris euismod pretium. Nullam scelerisque nisl ut rutrum pellentesque. Nunc ut pharetra dui. Nulla vulputate consequat sapien, finibus gravida erat gravida et. Ut consequat elit est, ac porta leo cursus ac. Praesent in ornare nibh. Lorem ipsum dolor sit amet.
+            </p>
+            <a href="#" class="btn btn--green">Book now</a>
+          </div>
+        </div>
+      </div>
       </div>
      </div>
-    <script type="module" src="/main.js"></script>
+    
+    <script type="module" src="/main.js"></script> 
   </body>
 </html>
+
